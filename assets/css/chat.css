@@ -1,0 +1,23 @@
+#xender-chat-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 9998;
+}
+
+#xender-chat-box {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+option:after {
+    content: attr(data-bubble);
+}
